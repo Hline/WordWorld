@@ -1,2 +1,25 @@
+<<<<<<< HEAD
 # setting file #
 .metadata*
+=======
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+>>>>>>> 18af30a303f916a12a1a8e4f4e3880c6a368e7e3
