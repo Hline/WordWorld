@@ -1,4 +1,0 @@
-WordWorld
-=========
-
-android app
