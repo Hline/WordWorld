@@ -1,6 +1,9 @@
 <<<<<<< HEAD
-# setting file #
+# setting file 
 .metadata*
+
+# temp file
+~$*
 =======
 # built application files
 *.apk
