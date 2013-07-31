@@ -1,0 +1,50 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="logo"
+        android:src="@drawable/logo"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+		/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:rowCount="2" >
+
+        <Button 
+            android:id="@+id/benk"
+            android:width="150dp"
+            android:height="90dp"
+            android:text="영어→한글"
+            />
+        <Button 
+            android:id="@+id/bmw"
+            android:width="150dp"
+            android:height="90dp"
+            android:text="내 단어"
+            />
+        <Button 
+            android:id="@+id/bmp"
+            android:width="150dp"
+            android:height="90dp"
+            android:text="마이페이지"
+            />
+        <Button 
+            android:id="@+id/bset"
+            android:width="150dp"
+            android:height="90dp"
+            android:text="설정"
+            />
+    </GridLayout>
+</LinearLayout>
